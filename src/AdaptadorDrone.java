@@ -1,7 +1,7 @@
-public class AdaptadorPato implements Pato {
+public class AdaptadorDrone implements Pato {
     protected Drone drone;
 
-    public AdaptadorPato(Drone drone) {
+    public AdaptadorDrone(Drone drone) {
         this.drone = drone;
     }
 

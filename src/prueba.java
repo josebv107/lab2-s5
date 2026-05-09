@@ -2,7 +2,7 @@ public class prueba {
     public static void main() {
         PatoReal p1 = new PatoReal();
         SuperDrone d1 = new SuperDrone();
-        AdaptadorPato adaptadorPato = new AdaptadorPato(d1);
+        AdaptadorDrone adaptadorDrone = new AdaptadorDrone(d1);
 
         System.out.println("El dron hace...");
         d1.beep();
@@ -14,7 +14,7 @@ public class prueba {
 
         //Aquí aplicamos el patrón adapter
         System.out.println("\nEl AdaptadorPato hace...");
-        testPato(adaptadorPato);
+        testPato(adaptadorDrone);
     }
 
     static void testPato(Pato pato) {
